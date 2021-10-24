@@ -1,0 +1,7 @@
+﻿{
+  "SystemName": "FoodStore",
+  "FriendlyName": "Food store",
+  "SupportRTL": true,
+  "PreviewImageUrl": "~/Themes/FoodStore/preview.jpg",
+  "PreviewText": "The 'FoodStore' site theme"
+}
