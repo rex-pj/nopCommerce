@@ -37,6 +37,254 @@
     <None Remove="Plugins\**;Themes\**" />
 
     <Content Include="Plugins\bin\placeholder.txt" CopyToPublishDirectory="PreserveNewest" />
+
+    <Content Include="Plugins\Widgets.NivoSlider\Content\nivoslider\themes\custom\custom.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+
+    <Content Include="Themes\FoodStore\Views\BackInStockSubscription\CustomerSubscriptions.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\BackInStockSubscription\SubscribePopup.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Catalog\CategoryTemplate.ProductsInGridOrLines.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Catalog\ManufacturerAll.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Catalog\ManufacturerTemplate.ProductsInGridOrLines.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Catalog\ProductsByTag.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Catalog\ProductTagsAll.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Catalog\Search.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Catalog\Vendor.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Catalog\VendorAll.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Catalog\_CatalogFilters.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Catalog\_CatalogProducts.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Catalog\_CatalogSelectors.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Catalog\_FilterManufacturerBox.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Catalog\_FilterPriceBox.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Catalog\_FilterSpecsBox.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Catalog\_ProductsInGridOrLines.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Checkout\BillingAddress.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Checkout\Completed.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Checkout\Confirm.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Checkout\OnePageCheckout.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Checkout\OpcBillingAddress.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Checkout\OpcConfirmOrder.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Checkout\OpcPaymentInfo.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Checkout\OpcPaymentMethods.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Checkout\OpcShippingAddress.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Checkout\OpcShippingMethods.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Checkout\PaymentInfo.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Checkout\PaymentMethod.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Checkout\ShippingAddress.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Checkout\ShippingMethod.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Checkout\_PickupPoints.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Customer\AccountActivation.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Customer\AddressAdd.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Customer\AddressEdit.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Customer\Addresses.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Customer\Avatar.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Customer\ChangePassword.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Customer\CheckGiftCardBalance.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Customer\ConfigureMultiFactorAuthenticationProvider.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Customer\DownloadableProducts.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Customer\EmailRevalidation.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Customer\GdprTools.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Customer\Info.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Customer\Login.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Customer\MultiFactorAuthentication.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Customer\MultiFactorVerification.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Customer\PasswordRecovery.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Customer\PasswordRecoveryConfirm.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Customer\Register.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Customer\RegisterResult.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Customer\UserAgreement.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Customer\_CheckUsernameAvailability.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Customer\_CustomerAttributes.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Customer\_ExternalAuthentication.Errors.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Customer\_MultiFactorAuthenticationProviders.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Home\Index.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Order\CustomerOrders.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Order\CustomerRewardPoints.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Order\Details.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Order\ShipmentDetails.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\CompareProducts.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\CustomerProductReviews.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\NewProducts.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\ProductEmailAFriend.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\ProductReviews.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\ProductTemplate.Grouped.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\ProductTemplate.Simple.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\RecentlyViewedProducts.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\_AddToCart.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\_AddToWishlist.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\_Availability.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\_BackInStockSubscription.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\_CompareProductsButton.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\_DeliveryInfo.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\_Discontinued.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\_DownloadSample.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\_GiftCardInfo.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\_Microdata.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\_ProductAttributes.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\_ProductBreadcrumb.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\_ProductDetailsPictures.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\_ProductEmailAFriendButton.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\_ProductEstimateShipping.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\_ProductManufacturers.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\_ProductPrice.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\_ProductReviewHelpfulness.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\_ProductReviewOverview.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\_ProductSpecifications.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\_ProductTags.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\_ProductTierPrices.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\_RentalInfo.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\_ShareButton.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Product\_SKU_Man_GTIN_Ven.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Shared\Components\AdminFooterLinks\Default.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Shared\Components\CheckoutProgress\Default.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Shared\Components\CustomerNavigation\Default.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Shared\Components\Footer\Default.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Shared\Components\HeaderLinks\Default.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Shared\Components\HomepageCategories\Default.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Shared\Components\HomepageNews\Default.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Shared\Components\HomepageBlogPosts\Default.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Shared\Components\HomepageProducts\Default.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Shared\Components\OrderSummary\Default.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Shared\Components\OrderTotals\Default.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Shared\Components\SearchBox\Default.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Shared\Components\ShoppingCartEstimateShipping\Default.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Shared\Components\SocialButtons\Default.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Shared\Components\TopicBlock\Default.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Shared\Components\TopMenu\Default.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Shared\_ColumnsTwo.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Shared\_CreateOrUpdateAddress.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Shared\_BlogPostBox.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Shared\_CheckoutAttributes.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Shared\_Header.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Shared\_ProductBox.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Shared\_Root.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Shared\_Root.Head.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\ShoppingCart\Cart.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\ShoppingCart\EmailWishlist.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\ShoppingCart\Wishlist.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\ShoppingCart\_GiftCardBox.cshtml" />
     <None Include="Plugins\**" CopyToPublishDirectory="PreserveNewest" Exclude="Plugins\**\runtimes\**;Plugins\**\ref\**;Plugins\**\*.pdb" />
 
     <Content Include="Themes\**" CopyToPublishDirectory="PreserveNewest" Exclude="Themes\**\*.config;Themes\**\*.cshtml;Themes\**\*.json" />
@@ -44,6 +292,8 @@
 
     <!-- We copy the \Logs directory -->
     <Content Include="Logs\**" CopyToPublishDirectory="PreserveNewest" />
+    <Content Remove="Themes\FoodStore\Content\css\custom.css" />
+    <None Remove="Plugins\Widgets.NivoSlider\Content\nivoslider\themes\custom\custom.css" />
     <None Remove="Themes\DefaultClean\Content\css\print.css" />
     <None Remove="Themes\DefaultClean\Content\css\styles.css" />
     <None Remove="Themes\DefaultClean\Content\css\styles.rtl.css" />
@@ -97,6 +347,129 @@
     <None Remove="Themes\DefaultClean\Content\images\watch.png" />
     <None Remove="Themes\DefaultClean\Content\images\wishlist-button.png" />
     <None Remove="Themes\DefaultClean\preview.jpg" />
+    <None Remove="Themes\FoodStore\Content\css\styles - Copy.rtl.css" />
+    <None Remove="Themes\FoodStore\Content\css\styles.css" />
+    <None Remove="Themes\FoodStore\Views\BackInStockSubscription\CustomerSubscriptions.cshtml" />
+    <None Remove="Themes\FoodStore\Views\BackInStockSubscription\SubscribePopup.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Catalog\CategoryTemplate.ProductsInGridOrLines.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Catalog\ManufacturerAll.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Catalog\ManufacturerTemplate.ProductsInGridOrLines.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Catalog\ProductsByTag.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Catalog\ProductTagsAll.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Catalog\Search.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Catalog\Vendor.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Catalog\VendorAll.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Catalog\_CatalogFilters.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Catalog\_CatalogProducts.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Catalog\_CatalogSelectors.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Catalog\_FilterManufacturerBox.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Catalog\_FilterPriceBox.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Catalog\_FilterSpecsBox.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Catalog\_ProductsInGridOrLines.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Checkout\BillingAddress.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Checkout\Completed.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Checkout\Confirm.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Checkout\OnePageCheckout.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Checkout\OpcBillingAddress.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Checkout\OpcConfirmOrder.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Checkout\OpcPaymentInfo.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Checkout\OpcPaymentMethods.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Checkout\OpcShippingAddress.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Checkout\OpcShippingMethods.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Checkout\PaymentInfo.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Checkout\PaymentMethod.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Checkout\ShippingAddress.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Checkout\ShippingMethod.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Checkout\_PickupPoints.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Customer\AccountActivation.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Customer\AddressAdd.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Customer\AddressEdit.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Customer\Addresses.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Customer\Avatar.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Customer\ChangePassword.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Customer\CheckGiftCardBalance.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Customer\ConfigureMultiFactorAuthenticationProvider.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Customer\DownloadableProducts.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Customer\EmailRevalidation.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Customer\GdprTools.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Customer\Info.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Customer\Login.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Customer\MultiFactorAuthentication.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Customer\MultiFactorVerification.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Customer\PasswordRecovery.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Customer\PasswordRecoveryConfirm.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Customer\Register.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Customer\RegisterResult.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Customer\UserAgreement.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Customer\_CheckUsernameAvailability.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Customer\_CustomerAttributes.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Customer\_ExternalAuthentication.Errors.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Customer\_MultiFactorAuthenticationProviders.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Home\Index.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Order\CustomerOrders.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Order\CustomerRewardPoints.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Order\Details.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Order\ShipmentDetails.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\CompareProducts.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\CustomerProductReviews.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\NewProducts.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\ProductEmailAFriend.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\ProductReviews.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\ProductTemplate.Grouped.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\ProductTemplate.Simple.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\RecentlyViewedProducts.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\_AddToCart.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\_AddToWishlist.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\_Availability.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\_BackInStockSubscription.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\_CompareProductsButton.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\_DeliveryInfo.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\_Discontinued.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\_DownloadSample.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\_GiftCardInfo.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\_Microdata.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\_ProductAttributes.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\_ProductBreadcrumb.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\_ProductDetailsPictures.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\_ProductEmailAFriendButton.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\_ProductEstimateShipping.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\_ProductManufacturers.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\_ProductPrice.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\_ProductReviewHelpfulness.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\_ProductReviewOverview.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\_ProductSpecifications.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\_ProductTags.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\_ProductTierPrices.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\_RentalInfo.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\_ShareButton.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Product\_SKU_Man_GTIN_Ven.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\Components\AdminFooterLinks\Default.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\Components\CheckoutProgress\Default.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\Components\CustomerNavigation\Default.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\Components\Footer\Default.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\Components\HeaderLinks\Default.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\Components\HomepageCategories\Default.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\Components\HomepageNews\Default.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\Components\HomepageBlogPosts\Default.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\Components\HomepageProducts\Default.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\Components\OrderSummary\Default.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\Components\OrderTotals\Default.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\Components\SearchBox\Default.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\Components\ShoppingCartEstimateShipping\Default.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\Components\SocialButtons\Default.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\Components\TopicBlock\Default.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\Components\TopMenu\Default.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\Components\_CreateOrUpdateAddress.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\_CheckoutAttributes.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\_ColumnsTwo.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\_Header.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\_ProductBox.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\_Root.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\_Root.Head.cshtml" />
+    <None Remove="Themes\FoodStore\Views\ShoppingCart\Cart.cshtml" />
+    <None Remove="Themes\FoodStore\Views\ShoppingCart\EmailWishlist.cshtml" />
+    <None Remove="Themes\FoodStore\Views\ShoppingCart\Wishlist.cshtml" />
+    <None Remove="Themes\FoodStore\Views\ShoppingCart\_GiftCardBox.cshtml" />
 
     <None Update="Areas\Admin\sitemap.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -113,7 +486,494 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Plugins\" />
+    <Folder Include="Themes\FoodStore\Content\lib\bootstrap\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Themes\FoodStore\Views\BackInStockSubscription\CustomerSubscriptions.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\BackInStockSubscription\SubscribePopup.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Catalog\CategoryTemplate.ProductsInGridOrLines.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Catalog\ManufacturerAll.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Catalog\ManufacturerTemplate.ProductsInGridOrLines.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Catalog\ProductsByTag.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Catalog\ProductTagsAll.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Catalog\Search.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Catalog\Vendor.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Catalog\VendorAll.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Catalog\_CatalogFilters.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Catalog\_CatalogProducts.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Catalog\_CatalogSelectors.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Catalog\_FilterManufacturerBox.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Catalog\_FilterPriceBox.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Catalog\_FilterSpecsBox.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Catalog\_ProductsInGridOrLines.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Checkout\BillingAddress.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Checkout\Completed.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Checkout\Confirm.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Checkout\OnePageCheckout.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Checkout\OpcBillingAddress.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Checkout\OpcConfirmOrder.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Checkout\OpcPaymentInfo.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Checkout\OpcPaymentMethods.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Checkout\OpcShippingAddress.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Checkout\OpcShippingMethods.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Checkout\PaymentInfo.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Checkout\PaymentMethod.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Checkout\ShippingAddress.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Checkout\ShippingMethod.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Checkout\_PickupPoints.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Customer\AccountActivation.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Customer\AddressAdd.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Customer\AddressEdit.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Customer\Addresses.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Customer\Avatar.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Customer\ChangePassword.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Customer\CheckGiftCardBalance.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Customer\ConfigureMultiFactorAuthenticationProvider.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Customer\DownloadableProducts.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Customer\EmailRevalidation.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Customer\GdprTools.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Customer\Info.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Customer\Login.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Customer\MultiFactorAuthentication.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Customer\MultiFactorVerification.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Customer\PasswordRecovery.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Customer\PasswordRecoveryConfirm.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Customer\Register.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Customer\RegisterResult.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Customer\UserAgreement.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Customer\_CheckUsernameAvailability.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Customer\_CustomerAttributes.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Customer\_ExternalAuthentication.Errors.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Customer\_MultiFactorAuthenticationProviders.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Home\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Order\CustomerOrders.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Order\CustomerRewardPoints.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Order\Details.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Order\ShipmentDetails.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\CompareProducts.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\CustomerProductReviews.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\NewProducts.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\ProductEmailAFriend.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\ProductReviews.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\ProductTemplate.Grouped.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\ProductTemplate.Simple.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\RecentlyViewedProducts.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\_AddToCart.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\_AddToWishlist.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\_Availability.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\_BackInStockSubscription.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\_CompareProductsButton.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\_DeliveryInfo.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\_Discontinued.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\_DownloadSample.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\_GiftCardInfo.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\_Microdata.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\_ProductAttributes.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\_ProductBreadcrumb.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\_ProductDetailsPictures.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\_ProductEmailAFriendButton.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\_ProductEstimateShipping.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\_ProductManufacturers.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\_ProductPrice.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\_ProductReviewHelpfulness.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\_ProductReviewOverview.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\_ProductSpecifications.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\_ProductTags.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\_ProductTierPrices.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\_RentalInfo.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\_ShareButton.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Product\_SKU_Man_GTIN_Ven.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Shared\Components\AdminFooterLinks\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Shared\Components\CheckoutProgress\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Shared\Components\CustomerNavigation\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Shared\Components\Footer\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Shared\Components\HeaderLinks\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Shared\Components\HomepageCategories\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Shared\Components\HomepageNews\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Shared\Components\HomepageBlogPosts\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Shared\Components\HomepageProducts\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Shared\Components\OrderSummary\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Shared\Components\OrderTotals\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Shared\Components\SearchBox\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Shared\Components\ShoppingCartEstimateShipping\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Shared\Components\SocialButtons\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Shared\Components\TopicBlock\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Shared\Components\TopMenu\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Shared\_ColumnsTwo.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Shared\_CreateOrUpdateAddress.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Shared\_CheckoutAttributes.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Shared\_Header.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Shared\_ProductBox.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Shared\_Root.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Shared\_Root.Head.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\ShoppingCart\Cart.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\ShoppingCart\EmailWishlist.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\ShoppingCart\Wishlist.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\ShoppingCart\_GiftCardBox.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
   </ItemGroup>
 
   <!-- This target execute after "Build" target.

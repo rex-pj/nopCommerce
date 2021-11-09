@@ -30,6 +30,16 @@ namespace Nop.Web.Factories
         Task<BlogPostListModel> PrepareBlogPostListModelAsync(BlogPagingFilteringModel command);
 
         /// <summary>
+        /// Prepare news blog post list model
+        /// </summary>
+        /// <param name="command">Blog paging filtering model</param>
+        /// <returns>
+        /// A task that represents the asynchronous operation
+        /// The task result contains the new blog post list model
+        /// </returns>
+        Task<BlogPostListModel> PrepareNewBlogPostListModelAsync(BlogPagingFilteringModel command);
+
+        /// <summary>
         /// Prepare blog post tag list model
         /// </summary>
         /// <returns>

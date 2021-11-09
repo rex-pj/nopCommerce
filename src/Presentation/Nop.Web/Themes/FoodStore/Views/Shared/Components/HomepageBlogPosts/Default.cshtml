@@ -1,0 +1,17 @@
+﻿@model BlogPostListModel
+@if (Model == null || Model.BlogPosts.Any())
+{
+    <div class="blog-grid home-page-blog-grid my-5">
+        <div class="module-title title mb-2">
+            <strong>Blogs</strong>
+        </div>
+        <div class="item-grid row">
+            @foreach (var item in Model.BlogPosts)
+            {
+                <div class="item-box col-6 col-sm-6 col-md-4 col-lg-3">
+                    @await Html.PartialAsync("_BlogPostBox", item)
+                </div>
+            }
+        </div>
+    </div>
+}

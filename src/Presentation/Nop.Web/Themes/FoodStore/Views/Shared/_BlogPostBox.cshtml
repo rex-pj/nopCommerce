@@ -1,0 +1,53 @@
+﻿@using Nop.Services.Media;
+@model BlogPostModel
+@inject IPictureService pictureService
+
+@{
+    const int pictureSize = 100;
+    string thumbnailUrl = Nop.Core.Html.HtmlHelper.GetImageFromHtmlTags(Model.Body);
+}
+
+@await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.BlogListPageBeforePost, additionalData = Model })
+<div class="post">
+    @if (!string.IsNullOrEmpty(thumbnailUrl))
+    {
+        <a class="post-title thumbnail-link" href="@Url.RouteUrl("BlogPost", new { SeName = Model.SeName })">
+            <img class="card-img-top" alt="@Model.Title" src="@thumbnailUrl" title="@Model.Title" />
+        </a>
+    }
+    else
+    {
+        <a class="post-title thumbnail-link" href="@Url.RouteUrl("BlogPost", new { SeName = Model.SeName })">
+            <img class="card-img-top" alt="@Model.Title" src="@await pictureService.GetDefaultPictureUrlAsync(pictureSize)" title="@Model.Title" />
+        </a>
+    }
+
+<div class="details">
+    <div class="post-head">
+        <a class="post-title" href="@Url.RouteUrl("BlogPost", new {SeName=Model.SeName})">@Model.Title</a>
+        <span class="post-date">@Model.CreatedOn.ToString("D")</span>
+    </div>
+    @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.BlogListPageBeforePostBody, additionalData = Model })
+    <div class="post-body card-body">
+        @{
+            string description = null;
+            if (!string.IsNullOrEmpty(Model.BodyOverview))
+            {
+                description = Model.BodyOverview != null && Model.BodyOverview.Length >= 93
+                          ? $"{Model.BodyOverview.Substring(0, 90)}..."
+                          : Model.BodyOverview;
+            }
+            else
+            {
+                description = Model.Body != null && Model.Body.Length >= 93
+                          ? $"{Model.Body.Substring(0, 90)}..."
+                          : Model.Body;
+            }
+        }
+        @Html.Raw(description)
+    </div>
+    @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.BlogListPageAfterPostBody, additionalData = Model })
+</div>
+    
+</div>
+@await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.BlogListPageAfterPost, additionalData = Model })

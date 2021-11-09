@@ -1,0 +1,16 @@
+﻿.theme-custom .nivo-controlNav a {
+  width: 24px;
+  height: 24px;
+  background-color: #FFE8D2;
+  border-radius: 24px;
+}
+
+  .theme-custom .nivo-controlNav a.active {
+    background-color: #768000;
+  }
+
+@media all and (max-width: 1000px) {
+  .theme-custom {
+    max-width: none;
+  }
+}

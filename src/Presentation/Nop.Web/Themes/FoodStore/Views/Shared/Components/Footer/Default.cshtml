@@ -1,0 +1,118 @@
+﻿@model FooterModel
+
+@using Nop.Core
+@using Nop.Core.Domain.Tax
+
+@inject IWorkContext workContext
+
+<div class="footer pt-5">
+    <div class="footer-upper pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="footer-block information col-3">
+                    <div class="footer-logo mb-2">
+                        @await Component.InvokeAsync("Logo")
+                    </div>
+                    <div class="footer-info">
+                        <span class="footer-disclaimer">@T("Content.CopyrightNotice", DateTime.Now.Year, Model.StoreName)</span>
+                        @if (Model.DisplayTaxShippingInfoFooter)
+                        {
+                            var inclTax = await workContext.GetTaxDisplayTypeAsync() == TaxDisplayType.IncludingTax;
+                            <span class="footer-tax-shipping">
+                                @T(inclTax ? "Footer.TaxShipping.InclTax" : "Footer.TaxShipping.ExclTax", Url.RouteUrl("Topic", new { SeName = await Html.GetTopicSeNameAsync("shippinginfo") }))
+                            </span>
+                        }
+                    </div>
+                </div>
+                <div class="footer-block customer-service col-3">
+                    <div class="title">
+                        <strong>@T("Footer.CustomerService")</strong>
+                    </div>
+                    <ul class="list">
+                        @if (Model.SearchEnabled && Model.DisplayProductSearchFooterItem)
+                        {
+                            <li><a href="@Url.RouteUrl("ProductSearch")">@T("Search")</a> </li>
+                        }
+                        @if (Model.BlogEnabled && Model.DisplayBlogFooterItem)
+                        {
+                            <li><a href="@Url.RouteUrl("Blog")">@T("Blog")</a></li>
+                        }
+                        @if (Model.NewProductsEnabled && Model.DisplayNewProductsFooterItem)
+                        {
+                            <li><a href="@Url.RouteUrl("NewProducts")">@T("Products.NewProducts")</a></li>
+                        }
+                    </ul>
+                </div>
+                <div class="footer-block my-account col-3">
+                    <div class="title">
+                        <strong>@T("Footer.MyAccount")</strong>
+                    </div>
+                    <ul class="list">
+                        @if (Model.DisplayCustomerInfoFooterItem)
+                        {
+                            <li><a href="@Url.RouteUrl("CustomerInfo")">@T("Account.MyAccount")</a></li>
+                        }
+                        @if (Model.DisplayCustomerOrdersFooterItem)
+                        {
+                            <li><a href="@Url.RouteUrl("CustomerOrders")">@T("Account.CustomerOrders")</a></li>
+                        }
+                        @if (Model.ShoppingCartEnabled && Model.DisplayShoppingCartFooterItem)
+                        {
+                            <li><a href="@Url.RouteUrl("ShoppingCart")">@T("ShoppingCart")</a></li>
+                        }
+                    </ul>
+                </div>
+                <div class="footer-block follow-us col-3">
+                    <div class="social">
+                        <div class="title">
+                            <strong>@T("Footer.FollowUs")</strong>
+                        </div>
+                        @await Component.InvokeAsync("SocialButtons")
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @await Component.InvokeAsync("AdminFooterLinks")
+    <div class="footer-lower">
+        @if (!Model.HidePoweredByNopCommerce)
+        {
+            <div class="footer-powered-by text-center">
+                @*Would you like to remove the "Powered by nopCommerce" link in the bottom of the footer?
+                    Please find more info at https://www.nopcommerce.com/nopcommerce-copyright-removal-key*@
+                Powered by <a href="@(OfficialSite.Main)">nopCommerce</a>
+            </div>
+        }
+    </div>
+    @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.Footer })
+</div>
+<script asp-location="Footer">
+    $(document).ready(function () {
+        $('.footer-block .title').on('click', function () {
+            var e = window, a = 'inner';
+            if (!('innerWidth' in window)) {
+                a = 'client';
+                e = document.documentElement || document.body;
+            }
+            var result = { width: e[a + 'Width'], height: e[a + 'Height'] };
+            if (result.width < 769) {
+                $(this).siblings('.list').slideToggle('slow');
+            }
+        });
+    });
+</script>
+<script asp-location="Footer">
+    $(document).ready(function () {
+        $('.block .title').on('click', function () {
+            var e = window, a = 'inner';
+            if (!('innerWidth' in window)) {
+                a = 'client';
+                e = document.documentElement || document.body;
+            }
+            var result = { width: e[a + 'Width'], height: e[a + 'Height'] };
+            if (result.width < 1001) {
+                $(this).siblings('.listbox').slideToggle('slow');
+            }
+        });
+    });
+</script>

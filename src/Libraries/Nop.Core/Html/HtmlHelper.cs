@@ -9,6 +9,7 @@ namespace Nop.Core.Html
     /// </summary>
     public partial class HtmlHelper
     {
+        private readonly Regex _imageRegex = new Regex("<img.+?src=[\"'](.+?)[\"'].*?>");
         #region Utilities
 
         private static string EnsureOnlyAllowedHtml(string text)
@@ -194,6 +195,16 @@ namespace Nop.Core.Html
                 text = ReplaceAnchorTags(text);
 
             return text;
+        }
+
+        /// <summary>
+        /// Get image from HTML tags
+        /// </summary>
+        /// <param name="text">Text</param>
+        /// <returns>Image url from src attribute</returns>
+        public static string GetImageFromHtmlTags(string text)
+        {
+            return Regex.Match(text, "<img.+?src=[\"'](.+?)[\"'].*?>", RegexOptions.IgnoreCase).Groups[1].Value;
         }
 
         #endregion

@@ -169,6 +169,46 @@ namespace Nop.Web.Factories
         }
 
         /// <summary>
+        /// Prepare news blog post list model
+        /// </summary>
+        /// <param name="command">Blog paging filtering model</param>
+        /// <returns>
+        /// A task that represents the asynchronous operation
+        /// The task result contains the new blog post list model
+        /// </returns>
+        public virtual async Task<BlogPostListModel> PrepareNewBlogPostListModelAsync(BlogPagingFilteringModel command)
+        {
+            if (command == null)
+                throw new ArgumentNullException(nameof(command));
+
+            if (command.PageSize <= 0)
+                command.PageSize = _blogSettings.PostsPageSize;
+            if (command.PageNumber <= 0)
+                command.PageNumber = 1;
+
+            var dateFrom = command.GetFromMonth();
+            var dateTo = command.GetToMonth();
+            var store = await _storeContext.GetCurrentStoreAsync();
+            var blogPosts = string.IsNullOrEmpty(command.Tag)
+                ? await _blogService.GetAllBlogPostsAsync(store.Id, 0, dateFrom, dateTo, command.PageNumber - 1, command.PageSize)
+                : await _blogService.GetAllBlogPostsByTagAsync(store.Id, 0, command.Tag, command.PageNumber - 1, command.PageSize);
+
+            var model = new BlogPostListModel
+            {
+                PagingFilteringContext = { Tag = command.Tag, Month = command.Month },
+                BlogPosts = await blogPosts.SelectAwait(async blogPost =>
+                {
+                    var blogPostModel = new BlogPostModel();
+                    await PrepareBlogPostModelAsync(blogPostModel, blogPost, false);
+                    return blogPostModel;
+                }).ToListAsync()
+            };
+            model.PagingFilteringContext.LoadPagedList(blogPosts);
+
+            return model;
+        }
+
+        /// <summary>
         /// Prepare blog post tag list model
         /// </summary>
         /// <returns>
