@@ -252,6 +252,8 @@
 
     <Content Include="Themes\FoodStore\Views\Shared\Components\OrderTotals\Default.cshtml" />
 
+    <Content Include="Themes\FoodStore\Views\Shared\Components\RecentlyViewedProductsBlock\Default.cshtml" />
+
     <Content Include="Themes\FoodStore\Views\Shared\Components\SearchBox\Default.cshtml" />
 
     <Content Include="Themes\FoodStore\Views\Shared\Components\ShoppingCartEstimateShipping\Default.cshtml" />
@@ -454,6 +456,7 @@
     <None Remove="Themes\FoodStore\Views\Shared\Components\HomepageProducts\Default.cshtml" />
     <None Remove="Themes\FoodStore\Views\Shared\Components\OrderSummary\Default.cshtml" />
     <None Remove="Themes\FoodStore\Views\Shared\Components\OrderTotals\Default.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\Components\RecentlyViewedProductsBlock\Default.cshtml" />
     <None Remove="Themes\FoodStore\Views\Shared\Components\SearchBox\Default.cshtml" />
     <None Remove="Themes\FoodStore\Views\Shared\Components\ShoppingCartEstimateShipping\Default.cshtml" />
     <None Remove="Themes\FoodStore\Views\Shared\Components\SocialButtons\Default.cshtml" />
@@ -907,6 +910,10 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
     <Content Update="Themes\FoodStore\Views\Shared\Components\OrderTotals\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Shared\Components\RecentlyViewedProductsBlock\Default.cshtml">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>

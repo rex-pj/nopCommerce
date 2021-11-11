@@ -14,7 +14,7 @@
                 @foreach (var value in attr.Values)
                 {
                     <li class="item @(!string.IsNullOrEmpty(value.ColorSquaresRgb) ? "color-item" : null)">
-                        <input id="attribute-option-@value.Id" type="checkbox" data-option-id="@value.Id" checked="@value.Selected" />
+                        <input id="attribute-option-@value.Id" type="checkbox" class="form-check-input" data-option-id="@value.Id" checked="@value.Selected" />
                         @if (string.IsNullOrEmpty(value.ColorSquaresRgb))
                         {
                             <label for="attribute-option-@value.Id">

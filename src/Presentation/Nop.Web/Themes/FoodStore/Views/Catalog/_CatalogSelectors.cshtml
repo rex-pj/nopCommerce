@@ -1,9 +1,9 @@
 ﻿@model CatalogProductsModel
 
 @if (Model.Products.Count <= 0 &&
-     !Model.PriceRangeFilter.Enabled &&
-     !Model.SpecificationFilter.Enabled &&
-     !Model.ManufacturerFilter.Enabled)
+   !Model.PriceRangeFilter.Enabled &&
+   !Model.SpecificationFilter.Enabled &&
+   !Model.ManufacturerFilter.Enabled)
 {
     return;
 }
@@ -49,7 +49,7 @@
     {
         <div class="product-sorting">
             <span>@T("Catalog.OrderBy")</span>
-            @Html.DropDownList("products-orderby", Model.AvailableSortOptions, new { aria_label = T("Catalog.OrderBy.Label") })
+            @Html.DropDownList("products-orderby", Model.AvailableSortOptions, new { @class="form-select", aria_label = T("Catalog.OrderBy.Label") })
         </div>
         <script asp-location="Footer">
             $(document).ready(function () {
@@ -70,7 +70,7 @@
     {
         <div class="product-page-size">
             <span>@T("Catalog.PageSize")</span>
-            @Html.DropDownList("products-pagesize", Model.PageSizeOptions, new { aria_label = T("Catalog.PageSize.Label") })
+            @Html.DropDownList("products-pagesize", Model.PageSizeOptions, new { @class="form-select", aria_label = T("Catalog.PageSize.Label") })
             <span>@T("Catalog.PageSize.PerPage")</span>
         </div>
         <script asp-location="Footer">

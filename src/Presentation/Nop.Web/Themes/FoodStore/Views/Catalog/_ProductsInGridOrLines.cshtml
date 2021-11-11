@@ -10,10 +10,10 @@
 @if (Model.Products.Count > 0)
 {
     <div class="@(Model.ViewMode == "list" ? "product-list" : "product-grid")">
-        <div class="item-grid">
+        <div class="item-grid row mt-5 mb-3">
             @foreach (var product in Model.Products)
             {
-                <div class="item-box">
+                <div class="item-box col-6 col-sm-6 col-md-4 col-lg-4 mb-3">
                     @await Html.PartialAsync("_ProductBox", product)
                 </div>
             }
