@@ -29,7 +29,7 @@
     @if (Model.DisplayCategoryBreadcrumb)
     {
         <div aria-label="breadcrumb">
-            <ul class="breadcrumb">
+            <ul itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumb">
                 <li class="breadcrumb-item">
                     <a href="@Url.RouteUrl("Homepage")" title="@T("Categories.Breadcrumb.Top")">@T("Categories.Breadcrumb.Top")</a>
                 </li>
