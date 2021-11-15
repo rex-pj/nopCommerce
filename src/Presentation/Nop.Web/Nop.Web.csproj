@@ -46,6 +46,14 @@
 
     <Content Include="Themes\FoodStore\Views\BackInStockSubscription\SubscribePopup.cshtml" />
 
+    <Content Include="Themes\FoodStore\Views\Blog\BlogPost.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Blog\Components\BlogMonths\Default.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Blog\Components\BlogTags\Default.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Blog\List.cshtml" />
+
     <Content Include="Themes\FoodStore\Views\Catalog\CategoryTemplate.ProductsInGridOrLines.cshtml" />
 
     <Content Include="Themes\FoodStore\Views\Catalog\ManufacturerAll.cshtml" />
@@ -357,6 +365,10 @@
     <None Remove="Themes\FoodStore\Content\css\styles.css" />
     <None Remove="Themes\FoodStore\Views\BackInStockSubscription\CustomerSubscriptions.cshtml" />
     <None Remove="Themes\FoodStore\Views\BackInStockSubscription\SubscribePopup.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Blog\BlogPost.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Blog\Components\BlogMonths\Default.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Blog\Components\BlogTags\Default.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Blog\List.cshtml" />
     <None Remove="Themes\FoodStore\Views\Catalog\CategoryTemplate.ProductsInGridOrLines.cshtml" />
     <None Remove="Themes\FoodStore\Views\Catalog\ManufacturerAll.cshtml" />
     <None Remove="Themes\FoodStore\Views\Catalog\ManufacturerTemplate.ProductsInGridOrLines.cshtml" />
@@ -469,6 +481,7 @@
     <None Remove="Themes\FoodStore\Views\Shared\Components\TopicBlock\Default.cshtml" />
     <None Remove="Themes\FoodStore\Views\Shared\Components\TopMenu\Default.cshtml" />
     <None Remove="Themes\FoodStore\Views\Shared\Components\_CreateOrUpdateAddress.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\_BlogPostBox - Copy.cshtml" />
     <None Remove="Themes\FoodStore\Views\Shared\_CheckoutAttributes.cshtml" />
     <None Remove="Themes\FoodStore\Views\Shared\_ColumnsTwo.cshtml" />
     <None Remove="Themes\FoodStore\Views\Shared\_Header.cshtml" />
@@ -504,6 +517,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
     <Content Update="Themes\FoodStore\Views\BackInStockSubscription\SubscribePopup.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Blog\BlogPost.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Blog\Components\BlogMonths\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Blog\Components\BlogTags\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Blog\List.cshtml">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>

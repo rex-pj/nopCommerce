@@ -2,35 +2,45 @@
 @if (Model.IsGiftCard)
 {
     <div class="giftcard">
-        <div>
-            <label asp-for="RecipientName" asp-postfix=":"></label>
-            <input asp-for="RecipientName" class="recipient-name"/>
-            <nop-required />
+        <div class="row mb-2">
+            <label asp-for="RecipientName" asp-postfix=":" class="col-sm-12 col-md-3 col-sm-2"></label>
+            <div class="col-sm-12 col-md-7 col-lg-6">
+                <input asp-for="RecipientName" class="recipient-name form-control" />
+                <nop-required />
+            </div>
         </div>
         @if (Model.GiftCardType == Nop.Core.Domain.Catalog.GiftCardType.Virtual)
         {
-            <div>
-                <label asp-for="RecipientEmail" asp-postfix=":"></label>
-                <input asp-for="RecipientEmail" class="recipient-email"/>
-                <nop-required />
+            <div class="row mb-2">
+                <label asp-for="RecipientEmail" asp-postfix=":" class="col-sm-12 col-md-3 col-sm-2"></label>
+                <div class="col-sm-12 col-md-7 col-lg-6">
+                    <input asp-for="RecipientEmail" class="recipient-email form-control" />
+                    <nop-required />
+                </div>
             </div>
         }
-        <div>
-            <label asp-for="SenderName" asp-postfix=":"></label>
-            <input asp-for="SenderName" class="sender-name"/>
+        <div class="row mb-2">
+            <label asp-for="SenderName" asp-postfix=":" class="col-sm-12 col-md-3 col-sm-2"></label>
+            <div class="col-sm-12 col-md-7 col-lg-6">
+                <input asp-for="SenderName" class="sender-name form-control" />
                 <nop-required />
+            </div>
         </div>
         @if (Model.GiftCardType == Nop.Core.Domain.Catalog.GiftCardType.Virtual)
         {
-            <div>
-                <label asp-for="SenderEmail" asp-postfix=":"></label>
-                <input asp-for="SenderEmail" class="sender-email"/>
-                <nop-required />
+            <div class="row mb-2">
+                <label asp-for="SenderEmail" asp-postfix=":" class="col-sm-12 col-md-3 col-sm-2"></label>
+                <div class="col-sm-12 col-md-7 col-lg-6">
+                    <input asp-for="SenderEmail" class="sender-email form-control" />
+                    <nop-required />
+                </div>
             </div>
         }
-        <div>
-            <label asp-for="Message" asp-postfix=":"></label>
-            <textarea asp-for="Message" class="message"></textarea>
+        <div class="row mb-2">
+            <label asp-for="Message" asp-postfix=":" class="col-sm-12 col-md-3 col-sm-2"></label>
+            <div class="col-sm-12 col-md-7 col-lg-6">
+                <textarea asp-for="Message" class="message form-control"></textarea>
+            </div>
         </div>
     </div>
 }
