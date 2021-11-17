@@ -276,6 +276,10 @@
 
     <Content Include="Themes\FoodStore\Views\Shared\Components\TopMenu\Default.cshtml" />
 
+    <Content Include="Themes\FoodStore\Views\Shared\_HomeLayout.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Shared\_ColumnsOne.cshtml" />
+
     <Content Include="Themes\FoodStore\Views\Shared\_ColumnsTwo.cshtml" />
 
     <Content Include="Themes\FoodStore\Views\Shared\_CreateOrUpdateAddress.cshtml" />
@@ -287,6 +291,8 @@
     <Content Include="Themes\FoodStore\Views\Shared\_Header.cshtml" />
 
     <Content Include="Themes\FoodStore\Views\Shared\_ProductBox.cshtml" />
+
+    <Content Include="Themes\FoodStore\Views\Shared\_HomeRoot.cshtml" />
 
     <Content Include="Themes\FoodStore\Views\Shared\_Root.cshtml" />
 
@@ -483,8 +489,11 @@
     <None Remove="Themes\FoodStore\Views\Shared\Components\_CreateOrUpdateAddress.cshtml" />
     <None Remove="Themes\FoodStore\Views\Shared\_BlogPostBox - Copy.cshtml" />
     <None Remove="Themes\FoodStore\Views\Shared\_CheckoutAttributes.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\_ColumnsOne.cshtml" />
     <None Remove="Themes\FoodStore\Views\Shared\_ColumnsTwo.cshtml" />
     <None Remove="Themes\FoodStore\Views\Shared\_Header.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\_HomeLayout.cshtml" />
+    <None Remove="Themes\FoodStore\Views\Shared\_HomeRoot.cshtml" />
     <None Remove="Themes\FoodStore\Views\Shared\_ProductBox.cshtml" />
     <None Remove="Themes\FoodStore\Views\Shared\_Root.cshtml" />
     <None Remove="Themes\FoodStore\Views\Shared\_Root.Head.cshtml" />
@@ -980,6 +989,14 @@
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
+    <Content Update="Themes\FoodStore\Views\Shared\_HomeLayout.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Shared\_ColumnsOne.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
     <Content Update="Themes\FoodStore\Views\Shared\_ColumnsTwo.cshtml">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
@@ -997,6 +1014,10 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
     <Content Update="Themes\FoodStore\Views\Shared\_ProductBox.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\FoodStore\Views\Shared\_HomeRoot.cshtml">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
